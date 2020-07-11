@@ -26,4 +26,6 @@ To generate ssh key
 * Now scroll down at the bottom of the page and click "Add ssh key to your github account"
 * Now run "tail ~/.ssh/id_rsa.pub" command on git bash and a key will be shown which will be so big so copy that full key and paste that on the setting then SSH and GPG keys then New SSH Key then Key text box]]]]]
 6. Now after generating the ssh key again run "git push -u origin master" command.
+7. After that once you update any file which you have published on web will be updated by running "git push" command after the commit.
+
 
