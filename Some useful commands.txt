@@ -1,0 +1,11 @@
+git status
+git init
+touch .gitignore
+
+git log
+git diff
+pwd
+git add .
+git commit -m ""
+mv "file you want to change its name" "what you want to set its name"
+rm "file name"
