@@ -1,12 +1,29 @@
-git status
-git init
-touch .gitignore
-git log
-git diff
-pwd
-git add .
-git commit -m ""
-mv "file you want to change its name" "what you want to set its name"
-rm "file name"
-git checkout -- file name
-git checkout -f (this used to backup all the files again from the last commit)
+1. git status
+2. git init
+3. touch .gitignore
+4. git log
+5. git diff
+6. pwd
+7. git add .
+8. git commit -m ""
+9. mv "file you want to change its name" "what you want to set its name"
+10. rm "file name"
+11. git checkout -- file name
+12. git checkout -f (this used to backup all the files again from the last commit)
+
+For Github Related:-
+1. git remote(remote here means a repository which is on the web)
+2. git remote add origin https://github.com/pranavgupta701/GitTutorial.git
+3. git remote(enter this again to see your website name in this case it will come origin because we have written origin above but you can name any other in upper line of "git remote add origin"if you want but it is good if you simply name it as origin as it is default)
+4. git remote -v 
+5. git push -u origin master
+(after running this command if it shows that you don't have access to push then you need to generate a ssh key)
+[[[[[How to generate ssh key:-
+To generate ssh key 
+* Now open a new tab on chrome and write ssh keys github, click on the first link or enter this url on chrome "https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" then scroll down and find "Generating a new ssh key" and copy 2nd command in 2nd line and paste it in the git bash and press enter again till complete.
+* Run this eval "$(ssh-agent -s)" in git bash (to run your ssh agent)
+* Run  ssh-add ~/.ssh/id_rsa in git bash
+* Now scroll down at the bottom of the page and click "Add ssh key to your github account"
+* Now run "tail ~/.ssh/id_rsa.pub" command on git bash and a key will be shown which will be so big so copy that full key and paste that on the setting then SSH and GPG keys then New SSH Key then Key text box]]]]]
+6. Now after generating the ssh key again run "git push -u origin master" command.
+
