@@ -1,15 +1,16 @@
-1. git status
-2. git init
-3. touch .gitignore
-4. git log
+1. git status (this is use to check the git status in that directory wheather it is modified,untraked, renamed and all like that)
+2. git init (this is used to insert a git file in the pwd if you want to use git in any directory then firstly add git file in that)
+3. touch .gitignore (this is used to create a .gitignore file in that file you can add the file name which want to ignore and if you want to ignore all the files of same extention then enter the entention in that file like this *.txt this will ignore all the .txt files in that directory) 
+4. git log (this will show up all the commit of that directory)
 5. git diff
-6. pwd
-7. git add .
-8. git commit -m ""
-9. mv "file you want to change its name" "what you want to set its name"
-10. rm "file name"
-11. git checkout -- file name
+6. pwd (this is the present working directory)
+7. git add . 
+8. git commit -m "" (to make a commit,any time you use git add . you should use this also)
+9. mv "file you want to change its name" "what you want to set its name" (to change the file name using git bash)
+10. rm "file name" (delete the file)
+11. git checkout -- file name (this is used to backup a single file but remember that you can backup with the last commit in the case when you don't commit the file which you want to backup)
 12. git checkout -f (this used to backup all the files again from the last commit)
+13. git config -- global alias.'what you want to be its name in shortcut' 'the command name' (this command is used to simply speeding the use of git or reducing the time to write same command again and again. this is just to make a shortcut)
 
 For Github Related:-
 1. git remote(remote here means a repository which is on the web)
