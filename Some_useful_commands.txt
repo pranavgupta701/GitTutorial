@@ -18,6 +18,9 @@ Type git command in git bash to get some common use commands of git bash
 17. git branch (this will show all the branches)
 18. git merge develop (this command is use to merge branches develop here is the current example branch)
  
+
+
+
 For Github Related:-
 1. git remote(remote here means a repository which is on the web)
 2. git remote add origin https://github.com/pranavgupta701/GitTutorial.git
