@@ -15,7 +15,7 @@ Type git command in git bash to get some common use commands of git bash
 14. git checkout -b develop (this command is used to create a new branch)
 15. git checkout master (this command is used to move to master branch from develop branch)
 16. git checkout develop (this command is used when you have already created the develop branch and want to switch to develop barnch from master)
-
+17. git branch (this will show all the branches)
 For Github Related:-
 1. git remote(remote here means a repository which is on the web)
 2. git remote add origin https://github.com/pranavgupta701/GitTutorial.git
