@@ -12,7 +12,7 @@ Type git command in git bash to get some common use commands of git bash
 11. git checkout -- file name (this is used to backup a single file but remember that you can backup with the last commit in the case when you don't commit the file which you want to backup)
 12. git checkout -f (this used to backup all the files again from the last commit)
 13. git config -- global alias.'what you want to be its name in shortcut' 'the command name' (this command is used to simply speeding the use of git or reducing the time to write same command again and again. this is just to make a shortcut)
-14. git checkout -b develop (this command is used to create a new branch)
+14. git checkout -b develop (this command is used to create a new branch you can make multiple branches by changing there name in place of develop in this case)
 15. git checkout master (this command is used to move to master branch from develop branch)
 16. git checkout develop (this command is used when you have already created the develop branch and want to switch to develop barnch from master)
 17. git branch (this will show all the branches)
