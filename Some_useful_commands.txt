@@ -17,6 +17,8 @@ Type git command in git bash to get some common use commands of git bash
 16. git checkout develop (this command is used when you have already created the develop branch and want to switch to develop barnch from master)
 17. git branch (this will show all the branches)
 18. git merge develop (this command is use to merge branches develop here is the current example branch)
+19. rm -rf .git (this command will delete the git folder)
+20. git clone <url of the github repository which you want to import in the folder> (this command is use to import a github repository to your laptop) 
  
 
 
