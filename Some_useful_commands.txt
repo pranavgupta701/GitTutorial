@@ -34,7 +34,7 @@ For Github Related:-
 
 [[[[[How to generate ssh key:-
 To generate ssh key 
-* Now open a new tab on chrome and write ssh keys github, click on the first link or enter this url on chrome "https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" then scroll down and find "Generating a new ssh key" and copy 2nd command in 2nd line and paste it in the git bash and press enter again till complete.
+* Now open a new tab on chrome and write ssh keys github, click on the first link or enter this url on chrome "https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" then scroll down and find "Generating a new ssh key" and copy 1st command in 2nd line and paste it in the git bash and press enter again till complete.
 * Run this eval "$(ssh-agent -s)" in git bash (to run your ssh agent)
 * Run  ssh-add ~/.ssh/id_rsa in git bash
 * Now scroll down at the bottom of the page and click "Add ssh key to your github account"
