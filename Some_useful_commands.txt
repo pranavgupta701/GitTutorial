@@ -20,6 +20,7 @@ Type git command in git bash to get some common use commands of git bash
 19. rm -rf .git (this command will delete the git folder)
 20. git clone <url of the github repository which you want to import in the folder> (this command is use to import a github repository to your laptop)
 21. git checkout <commit id> (this command is used to checkout any previous commit)
+22. git checkout <commit id> <file name> (this command is used to merge a file in your previous commit with the current branch, here current can be master or any, depending on in which branch you runned this command)
  
 
 
